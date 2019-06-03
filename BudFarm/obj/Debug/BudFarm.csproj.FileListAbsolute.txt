@@ -1,0 +1,16 @@
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\bin\Debug\BudFarm.exe.config
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\bin\Debug\BudFarm.exe
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\bin\Debug\BudFarm.pdb
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.Form1.resources
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.Properties.Resources.resources
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.csproj.GenerateResource.cache
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.csproj.CoreCompileInputs.cache
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.exe
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.pdb
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.UserControls.Consumption.resources
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.UserControls.Income.resources
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.UserControls.Vehicles.resources
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.UserControls.Workers.resources
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.csprojAssemblyReference.cache
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.UserControls.AddWorkers.resources
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Debug\BudFarm.UserControls.DeleteWorker.resources
