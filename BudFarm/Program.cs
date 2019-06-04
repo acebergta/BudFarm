@@ -16,6 +16,7 @@ namespace BudFarm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new LoginUI());
             Application.Run(new Form1());
         }
     }

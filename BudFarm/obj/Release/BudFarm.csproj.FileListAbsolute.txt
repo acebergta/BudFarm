@@ -18,3 +18,4 @@ C:\Users\aceberg\source\repos\BudFarm\BudFarm\bin\Release\BudFarm.exe.manifest
 C:\Users\aceberg\source\repos\BudFarm\BudFarm\bin\Release\BudFarm.application
 C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Release\BudFarm.exe.manifest
 C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Release\BudFarm.application
+C:\Users\aceberg\source\repos\BudFarm\BudFarm\obj\Release\BudFarm.LoginUI.resources
