@@ -138,6 +138,12 @@
     <Compile Include="UserControls\Income.Designer.cs">
       <DependentUpon>Income.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\PivotTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PivotTable.Designer.cs">
+      <DependentUpon>PivotTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Vehicles.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Income.resx">
       <DependentUpon>Income.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PivotTable.resx">
+      <DependentUpon>PivotTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Vehicles.resx">
       <DependentUpon>Vehicles.cs</DependentUpon>

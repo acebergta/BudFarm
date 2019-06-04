@@ -77,5 +77,11 @@ namespace BudFarm
             SidePanel.Top = button3.Top;
             workers1.BringToFront();
         }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button5.Height;
+            SidePanel.Top = button5.Top;
+        }
     }
 }
