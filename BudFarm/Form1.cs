@@ -82,6 +82,7 @@ namespace BudFarm
         {
             SidePanel.Height = button5.Height;
             SidePanel.Top = button5.Top;
+            pivotTable1.BringToFront();
         }
     }
 }

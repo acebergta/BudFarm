@@ -45,6 +45,7 @@
             this.workers1 = new BudFarm.UserControls.Workers();
             this.vehicles1 = new BudFarm.UserControls.Vehicles();
             this.consumption1 = new BudFarm.UserControls.Consumption();
+            this.pivotTable1 = new BudFarm.UserControls.PivotTable();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -83,6 +84,7 @@
             this.panel3.Controls.Add(this.workers1);
             this.panel3.Controls.Add(this.vehicles1);
             this.panel3.Controls.Add(this.consumption1);
+            this.panel3.Controls.Add(this.pivotTable1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 39);
             this.panel3.Name = "panel3";
@@ -244,6 +246,16 @@
             this.consumption1.Size = new System.Drawing.Size(1010, 590);
             this.consumption1.TabIndex = 1;
             // 
+            // pivotTable1
+            // 
+            this.pivotTable1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.pivotTable1.Font = new System.Drawing.Font("Century Gothic", 14.25F);
+            this.pivotTable1.Location = new System.Drawing.Point(78, 1);
+            this.pivotTable1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.pivotTable1.Name = "pivotTable1";
+            this.pivotTable1.Size = new System.Drawing.Size(1010, 590);
+            this.pivotTable1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -285,6 +297,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
+        private UserControls.PivotTable pivotTable1;
     }
 }
 
