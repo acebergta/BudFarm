@@ -34,7 +34,7 @@ namespace BudFarm.UserControls
                     string[] endMonth = { "20190131", "20190228", "20190331", "20190430", "20190531", "20190630", "20190731", "20190830", "20190931", "20191030", "20191131", "20191230" };
                     //int[] begMonth = { 20190101, 20190201, 20190301, 20190401, 20190501, 20190601, 20190701, 20190801, 20190901, 20191001, 20191101, 20191201 };
                     //int[] endMonth = { 20190131, 20190228, 20190331, 20190430, 20190531, 20190630, 20190731, 20190830, 20190931, 20191030, 20191131, 20191230 };
-                    for (int i = 0; i < days.Length; i++)
+                    for (int i = 0; i < 6; i++)
                     {
                         command.CommandText = "SELECT SUM(con_sum) FROM dbo.Consumption" +
                             " WHERE con_date >= '" + (string)begMonth[i] + "' and con_date <= '" + (string)endMonth[i] + "'";
@@ -45,7 +45,10 @@ namespace BudFarm.UserControls
                         int diff = sumIncom - sumConsump;
                         string month = days[i];
 
-                        
+                        if (sumConsump == 0)
+                            sumConsump = 0;
+                        if (sumIncom == 0)
+                            sumIncom = 0;
 
                         command.CommandText = "INSERT INTO dbo.Report (rep_month, rep_consumption, rep_income, rep_difference) " +
                             "Values (@TranzMonth, @TranzCon, @TranzInc, @TranzDif)";
