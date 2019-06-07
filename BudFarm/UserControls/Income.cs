@@ -113,10 +113,9 @@ namespace BudFarm.UserControls
                         
                         textBox1.Clear();
                         textBox2.Clear();
-                        command.CommandText = "INSERT INTO dbo.Income (inc_name, inc_sum, inc_date) VALUES (@TranzName, @TranzSum, @TranzDate)";
+                        command.CommandText = "INSERT INTO dbo.Income (inc_name, inc_sum) VALUES (@TranzName, @TranzSum)";
                         command.Parameters.AddWithValue("@TranzName", tranzName);
                         command.Parameters.AddWithValue("@TranzSum", tranzSum);
-                        command.Parameters.AddWithValue("@TranzDate", DateTime.Now);
                         command.ExecuteNonQuery();
                         dataGridView1.Rows.Clear();
                         LoadData();

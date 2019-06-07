@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BudFarm.exe" size="136144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BudFarm.exe" size="139728">
       <assemblyIdentity name="BudFarm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OUZ8kmVGNtCVBUEMQ2WBm7AiF2Cv8FVs+LfXBtPEvSQ=</dsig:DigestValue>
+        <dsig:DigestValue>RMOH7AGbex5vu+S6Gj1nkDq+kOzbGAi/ds8yK1gq9Zg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
