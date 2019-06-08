@@ -30,10 +30,8 @@ namespace BudFarm
             SqlConnectionStringBuilder conStr = new SqlConnectionStringBuilder();
             conStr.DataSource = @".\SQLEXPRESS";
             conStr.InitialCatalog = "BudFarmDB";
-            conStr.UserID = "Buhgalter123";
-            conStr.Password = "qwert";
-            //conStr.UserID = textBox1.Text;
-            //conStr.Password = textBox2.Text;
+            conStr.UserID = textBox1.Text;
+            conStr.Password = textBox2.Text;
             using (SqlConnection connection = new SqlConnection(conStr.ConnectionString))
             {
                 try

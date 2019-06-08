@@ -45,11 +45,6 @@ namespace BudFarm.UserControls
                         int diff = sumIncom - sumConsump;
                         string month = days[i];
 
-                        if (sumConsump == 0)
-                            sumConsump = 0;
-                        if (sumIncom == 0)
-                            sumIncom = 0;
-
                         command.CommandText = "INSERT INTO dbo.Report (rep_month, rep_consumption, rep_income, rep_difference) " +
                             "Values (@TranzMonth, @TranzCon, @TranzInc, @TranzDif)";
                         command.Parameters.AddWithValue("@TranzMonth", Convert.ToString(month));
@@ -107,6 +102,46 @@ namespace BudFarm.UserControls
             foreach (string[] s in data)
             {
                 dataGridView1.Rows.Add(s);
+            }
+        }
+
+        private void DataGridView1_SortCompare(object sender, DataGridViewSortCompareEventArgs e)
+        {
+            if (e.Column.Index == 0)
+            {
+                if (double.Parse(e.CellValue1.ToString()) > double.Parse(e.CellValue2.ToString()))
+                {
+                    e.SortResult = 1;
+                }
+                else if (double.Parse(e.CellValue1.ToString()) < double.Parse(e.CellValue2.ToString()))
+                {
+                    e.SortResult = -1;
+                }
+                else
+                {
+                    e.SortResult = 0;
+                }
+                e.Handled = true;
+            }
+            else if (e.Column.Index == 1)
+            {
+                dataGridView1.Columns[1].SortMode = DataGridViewColumnSortMode.Automatic;
+            }
+            else if (e.Column.Index == 2)
+            {
+                if (double.Parse(e.CellValue1.ToString()) > double.Parse(e.CellValue2.ToString()))
+                {
+                    e.SortResult = 1;
+                }
+                else if (double.Parse(e.CellValue1.ToString()) < double.Parse(e.CellValue2.ToString()))
+                {
+                    e.SortResult = -1;
+                }
+                else
+                {
+                    e.SortResult = 0;
+                }
+                e.Handled = true;
             }
         }
     }
